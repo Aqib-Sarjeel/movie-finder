@@ -1,0 +1,130 @@
+.sidenav {
+  height: 100%;
+  width: 240px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom right, #2c3e50, #bdc3c7);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+/*   #09203f #537895*/
+/* #09203F, #537895 */
+/* #13547a, #80d0c7 */
+/* #09203f, #537895 */
+/* #EE9CA7 , #FFDDE1 */
+/* #ee9ca7, #ffdde1 */
+/* #2E3192 , #1BFFFF */
+/* #2c3e50,#bdc3c7  */
+/* #2e3192, #1bffff */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  color: #f1f1f1;
+  display: block;
+}
+.main {
+  margin-left: 240px;
+  padding: 0px 10px;
+  background: transparent;
+  background-color: #efefef;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.bt-card {
+  margin-bottom: 15px;
+  box-shadow: 2px 2px 3px 3px #2c3e50;
+  cursor: pointer;
+}
+.input-container {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.welcome-text {
+  font-size: 20px;
+}
+.link-style {
+  width: 100%;
+  height: auto;
+  border: 1px solid #bdc3c7;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+  padding-top: 15px;
+  border-radius: 8px;
+}
+.link-style:hover {
+  border: 1px solid #000;
+}
+.link-container {
+  margin-top: 80px;
+}
+
+.icons {
+  font-size: 20px;
+}
+
+.icons > span {
+  margin-left: 5px;
+  margin-left: 20px;
+}
+.button-container {
+  width: 100%;
+  height: auto;
+  border: 1px solid #bf3312;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+  padding-top: 15px;
+  border-radius: 8px;
+  position: absolute;
+  bottom: 0px;
+}
+.button-logout {
+  width: 100%;
+  height: auto;
+  background: none;
+  border: none;
+  color: #bf3312;
+  margin-bottom: 5px;
+}
+.input-box-container {
+  display: grid;
+}
+.input-box-container > button {
+  border: none;
+  background-color: #008f95;
+  color: #f1f1f1;
+  border-radius: 5px;
+  padding: 8px 16px;
+  font-size: 25px;
+}
+.input-box-container > input {
+  outline-color: #008f95;
+  border: 1px solid #f1f1f1;
+  border-radius: 5px;
+  margin: 10px 0px;
+  padding: 12px 20px;
+}
+.input-box-container > strong > label {
+  font-size: 25px;
+}
+
+.trending {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 30px;
+  border: 1px solid #2c3e50;
+  position: sticky;
+  top: 10px;
+  text-align: center;
+  z-index: 1;
+  border-radius: 5px;
+  background-color: #fff !important;
+  box-shadow: 2px 2px 3px 3px #2c3e50;
+}
